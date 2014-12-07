@@ -12,6 +12,8 @@ plot1 <- function() {
       dat <- subset(dat, Date == "1/2/2007" | Date == "2/2/2007")
             
       ##Open PNG file device with appropriate arguments for saving plot
+      ##to match example images and assignment requirements
+      ##(transparent background, 480x480, etc.)
       png(filename = "plot1.png", width = 480, height = 480,
           bg = "transparent", type = "cairo")
       

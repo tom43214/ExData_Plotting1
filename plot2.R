@@ -17,6 +17,8 @@ plot2 <- function() {
       
       
       ##Open PNG file device with appropriate arguments for saving plot
+      ##to match example images and assignment requirements
+      ##(transparent background, 480x480, etc.)
       png(filename = "plot2.png", width = 480, height = 480,
           bg = "transparent", type = "cairo")
       
